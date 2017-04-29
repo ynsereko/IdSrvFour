@@ -1,0 +1,8 @@
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.deps.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.dev.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.AssemblyInfo.cs
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\Id4SrvClients\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.pdb

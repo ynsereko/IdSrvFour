@@ -1,0 +1,27 @@
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.deps.json
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.json
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.dev.json
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.dll
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.pdb
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.AssemblyInfo.cs
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.dll
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.pdb
+c:\users\ynser\documents\visual studio 2017\Projects\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.csprojResolveAssemblyReference.cache
+C:\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.deps.json
+C:\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.json
+C:\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.dev.json
+C:\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.dll
+C:\id4\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.pdb
+C:\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.csprojResolveAssemblyReference.cache
+C:\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.AssemblyInfo.cs
+C:\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.dll
+C:\id4\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.deps.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.runtimeconfig.dev.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\bin\Debug\netcoreapp1.1\IdentityServerFour.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.AssemblyInfo.cs
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\IdentityServerFour\obj\Debug\netcoreapp1.1\IdentityServerFour.csprojResolveAssemblyReference.cache

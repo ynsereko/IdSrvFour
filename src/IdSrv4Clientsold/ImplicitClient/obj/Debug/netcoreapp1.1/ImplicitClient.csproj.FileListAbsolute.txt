@@ -1,0 +1,9 @@
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\bin\Debug\netcoreapp1.1\ImplicitClient.deps.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\bin\Debug\netcoreapp1.1\ImplicitClient.runtimeconfig.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\bin\Debug\netcoreapp1.1\ImplicitClient.runtimeconfig.dev.json
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\bin\Debug\netcoreapp1.1\ImplicitClient.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\obj\Debug\netcoreapp1.1\ImplicitClient.AssemblyInfo.cs
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\bin\Debug\netcoreapp1.1\ImplicitClient.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\obj\Debug\netcoreapp1.1\ImplicitClient.dll
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\obj\Debug\netcoreapp1.1\ImplicitClient.pdb
+C:\Users\ynsereko\Documents\GitHub\IdSrvFour\src\IdentityServerFour\ImplicitClient\obj\Debug\netcoreapp1.1\ImplicitClient.csprojResolveAssemblyReference.cache
