@@ -4301,8 +4301,6 @@
       "type": "package",
       "path": "microsoft.applicationinsights/2.2.0",
       "files": [
-        "Microsoft.ApplicationInsights.2.2.0.nupkg.sha512",
-        "Microsoft.ApplicationInsights.nuspec",
         "lib/net40/Microsoft.ApplicationInsights.XML",
         "lib/net40/Microsoft.ApplicationInsights.dll",
         "lib/net45/Microsoft.ApplicationInsights.XML",
@@ -4313,7 +4311,9 @@
         "lib/netstandard1.5/Microsoft.ApplicationInsights.dll",
         "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll",
         "lib/uap10.0/Microsoft.ApplicationInsights.dll",
-        "lib/wp8/Microsoft.ApplicationInsights.dll"
+        "lib/wp8/Microsoft.ApplicationInsights.dll",
+        "microsoft.applicationinsights.2.2.0.nupkg.sha512",
+        "microsoft.applicationinsights.nuspec"
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.0.0": {
@@ -5969,8 +5969,6 @@
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
       "files": [
-        "Newtonsoft.Json.9.0.1.nupkg.sha512",
-        "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -5985,6 +5983,8 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
     },
@@ -11001,15 +11001,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ynsereko\\.nuget\\packages\\": {}
+    "C:\\Users\\yusuf.YNXPS27\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\MvcClient.csproj",
+      "projectUniqueName": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\MvcClient.csproj",
       "projectName": "MvcClient",
-      "projectPath": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\MvcClient.csproj",
-      "outputPath": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\obj\\",
+      "projectPath": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\MvcClient.csproj",
+      "outputPath": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\Id4SrvClients\\MvcClient\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

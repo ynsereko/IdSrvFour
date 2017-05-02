@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System.IdentityModel.Tokens.Jwt;
+
 
 namespace MvcClient
 {
@@ -34,7 +36,7 @@ namespace MvcClient
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
+         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
@@ -47,20 +49,27 @@ namespace MvcClient
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
-                AuthenticationScheme = "cookie"
+                AuthenticationScheme = Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme ,
+                AutomaticChallenge = true,
+                AutomaticAuthenticate = true
 
             });
 
+
             app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
             {
-                ClientId = "openIdConnectClient",
-                Authority = @"https://localhost:44342/",
+                ClientId = "hybrid.client",
+                ClientSecret = "superSecretPassword",
+                Authority = @"https://localhost:44322/",
                 AuthenticationScheme = "oidc",
-                SignInScheme = "Cookies",
+                SignInScheme =   "Cookies",
                 RequireHttpsMetadata = false,
+                ResponseType = "code id_token",
+                GetClaimsFromUserInfoEndpoint = true,
                 SaveTokens = true
             });
 

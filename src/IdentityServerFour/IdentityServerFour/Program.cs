@@ -13,6 +13,8 @@ namespace IdentityServerFour
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
+                .UseUrls("https://localhost:44322/") /*We recommend to configure the same port for IIS Express and self-hosting. 
+                This way you can switch between the two without having to modify any configuration in your clients.*/
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()

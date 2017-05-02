@@ -10109,15 +10109,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ynsereko\\.nuget\\packages\\": {}
+    "C:\\Users\\yusuf.YNXPS27\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\IdentityServerFour.csproj",
+      "projectUniqueName": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\IdentityServerFour.csproj",
       "projectName": "IdentityServerFour",
-      "projectPath": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\IdentityServerFour.csproj",
-      "outputPath": "C:\\Users\\ynsereko\\Documents\\GitHub\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\obj\\",
+      "projectPath": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\IdentityServerFour.csproj",
+      "outputPath": "C:\\Users\\yusuf.YNXPS27\\Documents\\github\\IdSrvFour\\src\\IdentityServerFour\\IdentityServerFour\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

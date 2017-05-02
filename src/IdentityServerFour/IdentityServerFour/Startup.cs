@@ -18,20 +18,21 @@ namespace IdentityServerFour
         {
 
             services.AddIdentityServer()
-            .AddInMemoryClients(Clients.Get())
+                        .AddInMemoryClients(Clients.Get())
             .AddInMemoryIdentityResources(Configuration.Resources.GetIdentityResources())
             .AddInMemoryApiResources(Configuration.Resources.GetApiResources())
             .AddTestUsers(Users.Get())
             .AddTemporarySigningCredential();
 
             services.AddMvc();
+            
           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
+            loggerFactory.AddConsole(/*LogLevel.Debug*/);
 
             if (env.IsDevelopment())
             {
