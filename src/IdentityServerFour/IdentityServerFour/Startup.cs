@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
 using IdentityServerFour.Configuration;
+using IdentityServer4.Validation;
+using IdentityServerFour.Extentions;
+using IdentityServer4.Services;
 
 namespace IdentityServerFour
 {
@@ -19,10 +22,13 @@ namespace IdentityServerFour
 
             services.AddIdentityServer()
                         .AddInMemoryClients(Clients.Get())
-            .AddInMemoryIdentityResources(Configuration.Resources.GetIdentityResources())
-            .AddInMemoryApiResources(Configuration.Resources.GetApiResources())
-            .AddTestUsers(Users.Get())
-            .AddTemporarySigningCredential();
+                        .AddInMemoryIdentityResources(Configuration.Resources.GetIdentityResources())
+                        .AddInMemoryApiResources(Configuration.Resources.GetApiResources())
+                        .AddTestUsers(Users.Get())
+                        .AddTemporarySigningCredential();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+            services.AddTransient<IProfileService, ProfileService>();
 
             services.AddMvc();
             
