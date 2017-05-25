@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.IdentityModel.Tokens.Jwt;
-
+using static IdentityModel.OidcConstants;
 
 namespace MvcClient
 {
@@ -64,11 +64,13 @@ namespace MvcClient
             {
                 ClientId = "hybrid.client",
                 ClientSecret = "superSecretPassword",
-                Authority = @"https://localhost:44322/",
+                Authority = @"http://localhost:44322/",
                 AuthenticationScheme = "oidc",
                 SignInScheme =   "Cookies",
                 RequireHttpsMetadata = false,
-                ResponseType = "code id_token",
+                ResponseType = ResponseTypes.CodeIdTokenToken /*"code id_token"*/,
+                Scope = { "offline_access", "role","customAPI.write","api1.read"}
+                ,
                 GetClaimsFromUserInfoEndpoint = true,
                 SaveTokens = true
             });

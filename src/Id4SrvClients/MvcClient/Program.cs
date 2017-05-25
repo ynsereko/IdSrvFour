@@ -13,7 +13,7 @@ namespace MvcClient
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                //.UseUrls("https://localhost:44392/")
+                .UseUrls("http://localhost:44393/")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
