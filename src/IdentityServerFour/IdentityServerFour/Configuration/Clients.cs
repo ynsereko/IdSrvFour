@@ -26,8 +26,8 @@ namespace IdentityServerFour.Configuration
             new Client {
                         ClientId = "hybrid.client",
                         ClientName = "Example HybridClient Application",
-                        AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
-                        AllowAccessTokensViaBrowser = false,
+                        AllowedGrantTypes =  GrantTypes.List(GrantTypes.HybridAndClientCredentials.FirstOrDefault(),"delegation") ,
+                        AllowAccessTokensViaBrowser = true, 
                         /* scopes that client has access to*/
                         AllowedScopes = new List<string>
                         {
@@ -36,13 +36,16 @@ namespace IdentityServerFour.Configuration
                             IdentityServerConstants.StandardScopes.Email,
                              IdentityServerConstants.StandardScopes.OfflineAccess,
                             "role",
-                            "customAPI.write"
+                            "customAPI.write",
+                            "api1.read"
                         },
                          /* secret for authentication*/
                         ClientSecrets = new List<Secret> {new Secret("superSecretPassword".Sha256())},
-                        RedirectUris =           { "https://localhost:44393/signin-oidc" },
+                        /*where to redirect after login*/
+                        RedirectUris =           { "http://localhost:44393/signin-oidc", "http://localhost:44393/" },
+                        /*where to redirect after logout*/
                         PostLogoutRedirectUris = { "http://localhost:44393/signout-callback-oidc" },
-                        LogoutUri ="https://localhost:44393/signout-oidc",
+                        LogoutUri ="http://localhost:44393/signout-oidc",
                         AllowOfflineAccess = true
 
                     },
