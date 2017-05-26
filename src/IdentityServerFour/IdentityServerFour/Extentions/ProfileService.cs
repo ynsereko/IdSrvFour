@@ -17,11 +17,25 @@ namespace IdentityServerFour.Extentions
         }
         public Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
-            throw new NotImplementedException();
+            if (context.Subject != null || context.Subject.Claims.Any())
+            {
+                /*Claims Issued during authentication process*/
+                context.IssuedClaims = context.Subject.Claims.ToList();
+            }
+            return Task.FromResult(0);
+
+
+            // issue the claims for the user
+            //var user = Users.SingleOrDefault(x => x.Subject == context.Subject.GetSubjectId());
+            //if (user != null)
+            //{
+            //    context.IssuedClaims = user.Claims.Where(x => context.RequestedClaimTypes.Contains(x.Type));
+            //}
         }
 
         public Task IsActiveAsync(IsActiveContext context)
         {
+            context.IsActive = context?.Subject != null;
             return Task.FromResult(0);
         }
     }
